@@ -102,3 +102,6 @@ section article h1 {
     padding-top: 466px;
     box-sizing: border-box
 }
+.test_class {
+    margin: auto;
+}
