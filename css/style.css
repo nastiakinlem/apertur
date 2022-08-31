@@ -286,7 +286,9 @@ section article h1 {
     background: white;
     display: block;
     border-radius: 30px;
-
+}
+.owl-carousel .owl-dots .owl-dot span:active{
+    background:#C0C0C0;
 }
 
 
