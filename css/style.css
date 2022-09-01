@@ -178,11 +178,14 @@ section article h1 {
 .partners_style{
     max-width: 1000px;
     padding-top: 96px;
+    margin:auto;
+
+}
+
+.owl-stage{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: auto;
-   
+    margin: 0 20px;
 }
 
 .photo_partners{
@@ -287,8 +290,8 @@ section article h1 {
     display: block;
     border-radius: 30px;
 }
-.owl-carousel .owl-dots .owl-dot span:active{
-    background:saddlebrown;
+.owl-dots  .owl-dot.active span{
+    background:burlywood;
 }
 
 .owl-carousel .owl-dots .owl-dot span:hover{
