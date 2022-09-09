@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+    .container{
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+    .home {
+        max-width: 767px
+    }
+}
+
+@media screen and (max-width: 428px) {
+
+
+    header nav ul li{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    nav li a{
+        letter-spacing: 1px;
+    }
+    .home{
+        max-width: 428px
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    header nav ul li{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    nav li a{
+        letter-spacing: 1px;
+    }
+
+    .home {
+        max-width: 320px
+    }
+}
